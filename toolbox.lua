@@ -10,8 +10,7 @@ function M.Average(liste)
 end
 
 function M.Input(prompt)
-    io.write(prompt)
-    io.flush()
+    print(prompt)
     local result = io.read()
     return result
 end
